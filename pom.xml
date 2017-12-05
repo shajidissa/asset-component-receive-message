@@ -6,7 +6,7 @@
 	<groupId>uk.co.h2ss</groupId>
 	<artifactId>asset-component-receive-message</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 
 	<name>asset-component-receive-message</name>
 	<description>Asset Component Receive Message</description>
