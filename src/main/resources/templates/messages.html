@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head> 
+    <title>Receive Messages to ActiveMQ</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+	<h1>Asset Component - Receive Messages from ActiveMQ</h1> 
+     <p th:each="m : ${messages}"
+       th:text="'id: ' + ${m.id} + ' message: ' + ${m.msg}" />
+       <a href="receivemessage">Refresh Messages</a>
+       
+       <br></br>
+       <br></br>
+       <br></br>
+       <br></br>
+           
+       
+       <p><a href="http://bitnami-tomcatstack-5abd.cloudapp.net:8161/admin" target="_blank">ActiveMQ</a> - login credentials : admin/admin</p> 
+</body>
+</html>
